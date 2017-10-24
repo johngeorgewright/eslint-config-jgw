@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jgw",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ES lint config",
   "main": "eslint-config-jgw.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "eslint": "^4.9.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.0"
   },
