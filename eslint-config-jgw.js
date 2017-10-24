@@ -12,6 +12,7 @@ module.exports = {
     'generator-star-spacing': ['warn', {
       'before': true,
       'after': true
-    }]
+    }],
+    'operator-linebreak': ['warn', 'before']
   }
 }

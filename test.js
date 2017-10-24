@@ -19,3 +19,13 @@ export const constant = 1
 
 // eslint-disable-next-line prefer-const
 export let constant2 = 2
+
+export const operatorLinebreak
+  = true
+  && false
+
+// eslint-disable-next-line operator-linebreak
+export const operatorLinebreak2 =
+  // eslint-disable-next-line operator-linebreak
+  true &&
+  false
