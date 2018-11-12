@@ -5,7 +5,10 @@
   "main": "eslint-config-jgw.js",
   "scripts": {
     "cm": "git-cz",
-    "test": "eslint test.js"
+    "get-peers": "cat package.json | jq -r '.peerDependencies | keys | .[]'",
+    "install-peers": "npm run -s get-peers | xargs npm install",
+    "test": "eslint test.js",
+    "uninstall-peers": "npm run -s get-peers | xargs npm uninstall"
   },
   "repository": {
     "type": "git",
@@ -37,5 +40,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "dependencies": {}
 }
