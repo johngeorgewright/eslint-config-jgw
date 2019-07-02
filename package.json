@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jgw",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ES lint config",
   "main": "eslint-config-jgw.js",
   "scripts": {
